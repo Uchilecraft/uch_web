@@ -30,5 +30,5 @@ $salt = 'E1F53135E559C253';
 
 // The padding length to use when the salt value is configured above.
 // The default value is 3.
-$padding = 3;
+$padding = 8;
 ?>

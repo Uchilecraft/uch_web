@@ -277,6 +277,7 @@ class Shorty {
      * Sends a 404 response.
      */
     public function not_found() {
+        http_response_code(404);
         header('Status: 404 Not Found');
         exit(
             '<h1>404 Not Found</h1>'.
@@ -337,10 +338,10 @@ class Shorty {
 
                     $id = $this->store($url);
 
-                    $url = $this->hostname.'/'.$this->encode($id);
+                    $url = $this->hostname.'?'.$this->encode($id);
                 }
                 else {
-                    $url = $this->hostname.'/'.$this->encode($result['id']);
+                    $url = $this->hostname.'?'.$this->encode($result['id']);
                 }
 
                 // Display the shortened url
