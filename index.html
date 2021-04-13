@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en" style="zoom: 85%;">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta name="description" content="Uchilecraft. Destinado a la comunidad de la UChile (e invitados)">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <title class='webistetitle'>Uchilecraft</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="index.html"><img src="img/serverlogo.png" style="width: 50px; padding-right: 10px;"></a>
+        <a class="navbar-brand" href="index.html">Uchilecraft Minecraft 1.16.5</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>     
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Reglas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="status.html">Estado</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel Images -->
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url(img/slide1.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Tu aventura comienza aquí</h3>
+              <p class="lead">Servidor de Minecraft 1.16.5 Towny PvP</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/slide2.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Construye lo que quieras</h3>
+              <p class="lead">Deja volar tu imaginación. <br>El cielo es el límite!</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/slide3.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Únete a nuestra comunidad</h3>
+              <p class="lead">Somos una comunidad amigable! <br>Ven a jugar con nosotros!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+    </header>
+
+    <!-- Player number count and IP -->
+    <section class="container" style="padding-top: 1rem;">
+      <div class="alert alert-success container" role="alert">
+        ¿Te unes? Entra con la ip <b>uchilecraft.cl</b> junto a otros
+        <b><span data-playercounter-ip="uchilecraft.cl:25565">0</span></b> jugadores conectados.
+      </div>
+    </section>
+
+    <!-- Main Features -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">¿Por qué nuestro servidor?</h4>
+      </div>
+    </section>
+    <section id="whythegrass">
+      <div class="container">
+        <div class="row textgray center">
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-memory fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Servidor propio</h3>
+            <p class="descbox textgray">Hosteamos desde nuestro propio servidor.
+              <br>Rara vez experimentarás lag o caidas.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-rocket fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Host en Chile</h3>
+            <p class="descbox textgray">El servidor se encuentra en Santiago.
+              <br>Nuestro ping es extremadamente bajo.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-heart fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Diversión garantizada.</h3>
+            <p class="descbox textgray">Disfruta de minecraft junto a nuestra comunidad.
+              <br>Conéctate a nuestro Discord, conoce y juega junto a otros estudiantes de la universidad.
+            </p>
+          </div>        
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Anuncios</h4>
+        <p class="lead">Revisa nuestras últimas actualizaciones</p>
+      </div>
+    </section>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col left col-sm-12 col-lg-6">
+                  <img src="img/minecraft-caves.jpg" alt="" srcset="" class="img-news">
+                </div>
+                <div class="col left col-sm-12 col-lg-6">
+                  <h4>Futura actualización 1.17</h4>
+                  <p class="lead justify">
+                    Como todos los jugadores de Minecraft, estamos emocionados con el anuncio
+                    de la versión 1.17 "caves and cliffs" y todo el contenido por venir.
+                    <br>
+                    Esperamos que esta actualización pueda motivar a nuevos jugadores en unirse
+                    al servidor y formar parte de esta comunidad.            
+                    <br>
+                    Cuando finalmente salga esta versión debemos esperar un par de días a que
+                    el equipo de Paper tengan lista la versión modificada. 
+                    <br><br>
+                    <b>LtFabin</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="display-4">Sobre el servidor</h4>
+            <p class="lead">Algunas de nuestras características</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row center container" style="margin-right: 0px; margin-left: 0px;">
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features1.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Economía</h5>
+            <p class="textblack">
+              Nuestra economía se centra en el jugador.
+              <br>
+              Vende y compra objetos a otros jugadores en nuestra casa de subastas!
+            </p>
+          </div>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features2.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Towny</h5>
+            <p class="textblack">
+              Crea tu propia ciudad para proteger tus cosas o únete a la de un amigo con Towny.
+            </p>
+          </div>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features3.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">PVP Amigable</h5>
+            <p class="textblack"> 
+              El servidor tiene PVP activado.
+              <br>
+              Puedes probar tus habilidades combatiendo contra otros jugadores de forma amigable.
+            </p>
+          </div>                   
+        </div>
+      </div>  
+    </section>
+
+    <!-- Info Section -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="display-4">Características técnicas</h4>
+            <p class="lead">Información sobre el funcionamiento interno del servidor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row center container" style="margin-right: 0px; margin-left: 0px;">
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <i class="fas fa-hdd fa-4x main-f-color" style="margin-top: 5%; box-shadow: none; color: lightblue;"></i>
+            <h5 class="textblack">Host</h5>
+            <p class="textblack">
+              Hosteamos desde un pc dedicado
+              <br>
+              Cpu I5 - Ram 16gb - Ssd 256gb
+            </p>
+          </div>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <i class="fas fa-list-alt fa-4x main-f-color" style="margin-top: 5%; box-shadow: none; color: lightblue;"></i>
+            <h5 class="textblack">Panel</h5>
+            <p class="textblack">
+              Utilizamos el panel Pterodactyl
+              <br>
+              Docker - SSL - Open Source
+            </p>
+          </div>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <i class="fas fa-location-arrow fa-4x main-f-color" style="margin-top: 5%; box-shadow: none; color: lightblue;"></i>  
+            <h5 class="textblack">Minecraft</h5>
+            <p class="textblack"> 
+              Ejecutamos Paper/Waterfall
+              <br>
+              Optimizado - Plugins - Api extendida
+            </p>
+          </div>                   
+        </div>
+      </div>  
+    </section>
+
+    <!-- Comunity Section -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Conoce a la comunidad</h4>
+        <p class="lead">Muchas personas juegan en uchilecraft y nos recomiendan a sus amigos y familiares</p>
+      </div>
+    </section>
+    <section id="testimonials" style="padding-bottom: 3rem; background-color: rgb(205, 255, 214);">
+      <div class="row center" >
+        <div class="feature-box col-lg-4">
+          <img class="img-featureboxes testemonial-image" src="https://minotar.net/avatar/steve" alt="Card image cap">
+          <h4 class="textblack"><i>""</i></h4>
+          <h4 class="textblack"><i>""</i></h4>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="img-featureboxes testemonial-image" src="https://minotar.net/avatar/steve" alt="Card image cap">
+          <h4 class="textblack"><i>""</i></h4>
+          <h4 class="textblack"><i>""</i></h4>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="img-featureboxes testemonial-image" src="https://minotar.net/avatar/steve" alt="Card image cap">
+          <h4 class="textblack"><i>""</i></h4>
+          <h4 class="textblack"><i>""</i></h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Networks -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Visita nuestras redes sociales</h4>
+        <p class="lead">Conoce nuestras últimas novedades y conéctate con nuestra comunidad.</p>
+      </div>
+    </section>
+    <section style="padding-bottom: 3rem;">
+      <div class="container">
+        <div class="row textgray center">
+          <div class="feature-box col-lg-6">
+            <iframe src="https://discord.com/widget?id=585994038176514059&theme=dark" width="400" height="600" allowtransparency="true"
+            frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
+          <div class="feature-box col-lg-6">
+            <iframe src="https://www.instagram.com/p/CD4ZDk6nVDC/embed" width="400" height="600" frameborder="0"></iframe>
+          </div>     
+        </div>
+      </div>
+    </section>
+
+    <!-- Staff Cards -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Conoce al Staff</h4>
+        <p class="lead">Siempre puedes hacer tus consultas en nuestro discord.</p>
+      </div>
+    </section>
+    <section style="padding-bottom: 3rem;">
+      <div class="container">
+        <div class="card-deck">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/benjujo.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">benjujo</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2019</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/Helena10.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Helena10</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2019</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/LtFabin.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">LtFabin</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/Onath1.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Onath1</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/JaviiJ.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">JaviiJ</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/inzektonality.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">inzektonality</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/donsackboy.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">donsackboy</h4>
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">[Admin]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/sirusagi.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">SirUsagi</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2019</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/camisho.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">CaMisho</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/ectores.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Ectores</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/empollito.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Empollito</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/laicro.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Laicro</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/leone.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Leone</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/majinelgordo.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">MajinElGordo</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/mrfranch0.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">MrFranch0</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/myrks.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Myrks</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                  <img class="card-img-top" src="https://minotar.net/avatar/Asevetefer.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Asevetefer</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/stban07.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">StBan07</h4>
+                  <h6 class="card-title" style="color: rgb(60, 68, 169);">[Mod]</h6>
+                  <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Joined on 2020</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">Uchilecraft</h4>
+            <p class="textgray">
+              Servidor de Minecraft activo desde 2019.
+              <br>
+              Destinado a la comunidad de la UChile (e invitados).
+              <br>
+              Despues de mucho tiempo y pruebas con ajustes y plugins,
+              logramos crear un servidor de Minecraft estable y funcional
+              para nuestra comunidad de estudiantes de la Universidad de Chile
+              , sus amigos y sus familiares.
+              <br>
+              Esperamos que lo disfrutes. 
+            </p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">Redes sociales!</h4><br>
+            <div class="row">         
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="http://discord.uchilecraft.cl">
+                  <i class="fab fa-discord fa-2x" style="color: #7289DA;"></i>
+                  Discord
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="http://instagram.uchilecraft.cl">
+                  <i class="fab fa-instagram fa-2x" style="color: #F56040;"></i>
+                  Instagram
+                </a>
+              </div> 
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="http://whatsapp.uchilecraft.cl/">
+                  <i class="fab fa-whatsapp fa-2x" style="color: #25D366;"></i>
+                  Whatsapp
+                </a>
+              </div>              
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="http://telegram.uchilecraft.cl">
+                  <i class="fab fa-telegram fa-2x" style="color: #1DA1F2;"></i>
+                  Telegram
+                </a>
+              </div>                               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright page-footer text-center py-3" style="color: white; background-color: rgb(37, 41, 46);">
+        © 2020 Copyright:
+        <a href="https://github.com/ricardoborsato/TheGrassBlock">TheGrassBlock Server</a>
+      </div>
+    </footer>
+    <style>
+      .card {
+        margin-top: 10px;
+        transition: 0.5s;
+      }
+      
+      .card:hover {
+        transform: scale(1.01);
+        transition: 0.5s;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

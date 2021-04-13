@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" style="zoom: 85%;">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta name="description" content="Uchilecraft. Destinado a la comunidad de la UChile (e invitados)">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/status.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <title class='webistetitle'>Uchilecraft</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="index.html"><img src="img/serverlogo.png" style="width: 50px; padding-right: 10px;"></a>
+        <a class="navbar-brand" href="index.html">Uchilecraft Minecraft 1.16.5</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>     
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Reglas</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="status.html">Estado<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card col-md-2"> <div class="icon"><img src="img/serverlogo.png"></div><div class="header">
+          <div class="image"> <img src="img/main-logo.jpg" alt="" /> </div></div>
+          <div class="host"><br><h4><b>Bungee</b></h4></div>
+          <div class="play" id="play0"></div>
+          <div class="motd" id="motd0">Cargando ...</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card col-md-2"> <div class="icon"><img src="img/serverlogo.png"></div><div class="header">
+          <div class="image"> <img src="img/main-logo.jpg" alt="" /> </div></div>
+          <div class="host"><br><h4><b>Lobby</b></h4></div>
+          <div class="play" id="play1"></div>
+          <div class="motd" id="motd1">Cargando ...</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card col-md-2"> <div class="icon"><img src="img/serverlogo.png"></div><div class="header">
+          <div class="image"> <img src="img/main-logo.jpg" alt="" /> </div></div>
+          <div class="host"><br><h4><b>Survival</b></h4></div>
+          <div class="play" id="play2"></div>
+          <div class="motd" id="motd2">Cargando ...</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card col-md-2"> <div class="icon"><img src="img/serverlogo.png"></div><div class="header">
+          <div class="image"> <img src="img/main-logo.jpg" alt="" /> </div></div>
+          <div class="host"><br><h4><b>Rol</b></h4></div>
+          <div class="play" id="play3"></div>
+          <div class="motd" id="motd3">Cargando ...</div>
+        </div>
+      </div>
+    </div>
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/status.js"></script>
+  
+  </body>
+
+</html>
