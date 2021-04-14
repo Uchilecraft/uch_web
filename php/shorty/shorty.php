@@ -277,12 +277,8 @@ class Shorty {
      * Sends a 404 response.
      */
     public function not_found() {
-        http_response_code(404);
-        header('Status: 404 Not Found');
-        exit(
-            '<h1>404 Not Found</h1>'.
-            str_repeat(' ', 512)
-        );
+        header("Location: https://www.uchilecraft.cl/error_404.html", true, 301);
+        exit();
     }
 
     /**

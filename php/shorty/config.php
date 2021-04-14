@@ -8,7 +8,7 @@ $connection = new PDO('mysql:dbname=shorty;host=127.0.0.1', 'shortyuser', '1qaz'
 // Esta base de datos es solo accesible por localhost
 
 // Choose your character set (default)
-// $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+ $chars = str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
 
 // The following are shuffled strings of the default character set.
 // You can uncomment one of the lines below to use a pre-generated set,
@@ -16,8 +16,7 @@ $connection = new PDO('mysql:dbname=shorty;host=127.0.0.1', 'shortyuser', '1qaz'
 // Using shuffled characters will ensure your generated URLs are unique
 // to your installation and are harder to guess.
 
-$chars = 'XPzSI6v5DqLuBtVWQARy2mfwkC14F8HUTOG0aJiYpNrl9Zxgbd3Khsno7jMeEc';
-
+// $chars = 'XPzSI6v5DqLuBtVWQARy2mfwkC14F8HUTOG0aJiYpNrl9Zxgbd3Khsno7jMeEc';
 // $chars = 'PAC3mfIazxgF1lVK4wJ2WEHY0dcb87TrsZeBpL9vNUMGktROijnSoq5DX6yQhu';
 // $chars = 'zFr7ALOJnGRxtKSs0oQT5NeZjdI1iX8DM2lHaCVyg4mUPp63BkEubc9qWfhwYv';
 // $chars = 'u7oIws3pVWZMQjA4XhNtyvglkEer1C2J5YdT6zLiFm0ObPc8S9KaDHqRBnfUGx';
@@ -26,7 +25,7 @@ $chars = 'XPzSI6v5DqLuBtVWQARy2mfwkC14F8HUTOG0aJiYpNrl9Zxgbd3Khsno7jMeEc';
 // If you want your generated URLs to even harder to guess, you can set
 // the salt value below to any non empty value. This is especially useful for
 // encoding consecutive numbers.
-$salt = 'E1F53135E559C253';
+$salt = md5(rand());
 
 // The padding length to use when the salt value is configured above.
 // The default value is 3.
