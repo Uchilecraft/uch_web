@@ -1,6 +1,6 @@
 <?php
 // Hostname for your URL shortener
-$hostname = 'https://www.uchilecraft.cl/shorty';
+$hostname = 'https://www.uchilecraft.cl/sh';
 
 // PDO connection to the database
 $connection = new PDO('mysql:dbname=shorty;host=127.0.0.1', 'shortyuser', '1qaz');
@@ -16,7 +16,9 @@ $connection = new PDO('mysql:dbname=shorty;host=127.0.0.1', 'shortyuser', '1qaz'
 // Using shuffled characters will ensure your generated URLs are unique
 // to your installation and are harder to guess.
 
-$chars = 'XPzSI6v5DqLuBtVWQARy2mfwkC14F8HUTOG0aJiYpNrl9Zxgbd3Khsno7jMeEc';
+$chars = '5sqwdhm1z3iY2kXftMlZeTD6SK87nUPaxur4QjELGbCINoJgRVF9pHWycO0AvB';
+
+// $chars = 'XPzSI6v5DqLuBtVWQARy2mfwkC14F8HUTOG0aJiYpNrl9Zxgbd3Khsno7jMeEc';
 // $chars = 'PAC3mfIazxgF1lVK4wJ2WEHY0dcb87TrsZeBpL9vNUMGktROijnSoq5DX6yQhu';
 // $chars = 'zFr7ALOJnGRxtKSs0oQT5NeZjdI1iX8DM2lHaCVyg4mUPp63BkEubc9qWfhwYv';
 // $chars = 'u7oIws3pVWZMQjA4XhNtyvglkEer1C2J5YdT6zLiFm0ObPc8S9KaDHqRBnfUGx';
