@@ -14,7 +14,7 @@ require_once 'ApiPing.php';
 require_once 'closeTags.php';
 
 $a_name = array('bungee', 'lobby', 'survival', 'rol');
-$a_port = array(25565, 25566, 25569, 25567);
+$a_port = array(25565, 25566, 25567, 25568);
 
 $host = '127.18.0.1';
 
