@@ -389,4 +389,28 @@ class Shorty {
             }
         }
     }
+
+    public function run_q() {
+        $q = str_replace('/', '', $_GET['q']);
+        
+        if (empty($q)) {
+            $this->not_found();
+            return;
+        }
+
+        if (preg_match('/^([a-zA-Z0-9]+)$/', $q, $matches)) {
+            $id = self::decode($matches[1]);
+
+            $result = $this->fetch($id);
+
+            if (!empty($result)) {
+                $this->update($id);
+
+                $this->redirect($result['url']);
+            }
+            else {
+                $this->not_found();
+            }
+        }
+    }
 }

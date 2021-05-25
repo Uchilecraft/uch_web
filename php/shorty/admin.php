@@ -8,5 +8,5 @@ $shorty->set_chars($chars);
 $shorty->set_salt($salt);
 $shorty->set_padding($padding);
 
-$shorty->run_q();
+$shorty->run();
 ?>
