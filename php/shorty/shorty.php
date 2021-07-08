@@ -270,7 +270,16 @@ class Shorty {
      */
     public function redirect($url) {
         header("Location: $url", true, 301);
-        exit();
+        exit(implode("\n", array(
+            '<title>UShortly</title>',
+            '<meta name="title" content="UShortly">',
+            '<meta name="description" content="Uchilecraft Link Shortener">',
+            '<meta property="og:type" content="website">',
+            '<meta property="og:url" content="https://metatags.io/">',
+            '<meta property="og:title" content="UShortly">',
+            '<meta property="og:description" content="Uchilecraft Link Shortener">',
+            '<meta property="og:image" content="https://www.uchilecraft.cl/img/serverlogo.png">'
+        )));
     }
 
     /**

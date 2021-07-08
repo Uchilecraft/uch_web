@@ -1,6 +1,6 @@
 <?php
 // Hostname for your URL shortener
-$hostname = 'https://www.uchilecraft.cl/sh';
+$hostname = 'https://uchilecraft.cl/sh';
 
 // PDO connection to the database
 $connection = new PDO('mysql:dbname=shorty;host=127.0.0.1', 'shortyuser', '1qaz');
